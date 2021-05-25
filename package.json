@@ -1,0 +1,53 @@
+{
+  "name": "@swivel-finance/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint config for @swivel-finance.",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "eslint '**/*.js' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz",
+    "release": "standard-version --commit-all",
+    "release:dry": "npm run release -- --dry-run",
+    "release:publish": "git push --follow-tags origin master && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swivel-Finance/eslint-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swivel-Finance/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Swivel-Finance/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.2.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-import": "^2.23.3",
+    "standard-version": "^9.3.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-plugin-import": "^2.23.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "engines": {
+    "node": ">=15",
+    "npm": ">=7"
+  }
+}
