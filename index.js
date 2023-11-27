@@ -14,6 +14,14 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
     ],
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx'],
+        },
+        'import/resolver': {
+            typescript: {},
+        },
+    },
     rules: {
         /**
          * eslint rules
