@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/Swivel-Finance/eslint-config/compare/v0.1.0...v0.2.0) (2023-11-27)
+
+
+### Features
+
+* update versions for TS 5 compatibility ([6929ba6](https://github.com/Swivel-Finance/eslint-config/commit/6929ba62eff0b66de7f494c8574d47dc93b06b69))
+
 ## 0.1.0 (2021-05-25)
 
 
