@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.2](https://github.com/Swivel-Finance/eslint-config/compare/v0.2.1...v0.2.2) (2023-12-04)
+
+
+### Bug Fixes
+
+* indentation rules for decorators ([5b62310](https://github.com/Swivel-Finance/eslint-config/commit/5b62310f7016a3b09da8640b4e3375f09e859b25))
+
 ### [0.2.1](https://github.com/Swivel-Finance/eslint-config/compare/v0.2.0...v0.2.1) (2023-11-27)
 
 
