@@ -133,7 +133,12 @@ module.exports = {
             4,
             {
                 'SwitchCase': 1,
-                'ignoredNodes': ['TemplateLiteral > *'],
+                'ignoredNodes': [
+                    'TemplateLiteral > *',
+                    'FunctionExpression > .params[decorators.length > 0]',
+                    'FunctionExpression > .params > :matches(Decorator, :not(:first-child))',
+                    'ClassBody.body > PropertyDefinition[decorators.length > 0] > .key',
+                ],
             },
         ],
         'keyword-spacing': 'off',
